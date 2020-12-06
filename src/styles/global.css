@@ -1,3 +1,77 @@
 html {
-    background-color: lavenderblush;
+    background-color: #0067FF;
+    overflow-x: hidden;
   }
+
+.Projects-box {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-right: 10%;
+  position: relative;
+}
+
+h1 {
+
+    font-family: "Quicksand";
+    font-weight: 400;
+    font-size: 40pt;
+    margin-bottom: 0px;
+    color: white;
+    text-align: center;
+
+}
+
+
+h2,h3 {
+
+    font-family: "Quicksand";
+    font-weight: 400; 
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+#logo {
+
+  width: 600px;
+  position: relative;
+  left: 150px;
+  padding-bottom: 100px;
+}
+
+#Heading {
+
+  position: relative;
+  top: 60vh;
+  left: 20vw;
+}
+
+#Heading-Skills {
+
+  display: flexbox;
+  columns: 3;
+}
+
+#Profile {
+
+  width: 400px;
+  position: absolute;
+  left: 60vw;
+  top: 20vh;
+}
+
+#Skills {
+
+  margin-left: 10%;
+  margin-right: 10%;
+
+}
+
+#Subheading {
+
+  position: relative;
+  left: 50px;
+}

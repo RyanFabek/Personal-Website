@@ -1,0 +1,24 @@
+.container {
+
+    background-color: #009FFF;
+    width: 25vw;
+    border-radius: 5px;
+}
+
+.container > p {
+
+    color: white;
+    padding-left: 25px;
+    
+}
+
+.container > h2 {
+
+    border-bottom: white 2px solid;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: "Quicksand";
+    font-weight: 400;
+}
+

@@ -1,0 +1,48 @@
+p {
+
+    background-color:#009FFF;
+    color: white;
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    
+}
+
+p::after {
+
+ 
+
+}
+
+
+.dot {
+
+
+    height: 5px;
+    width: 5px;
+    background-color:white;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    left: 10px;
+    bottom: 1px;
+
+}
+
+.Arrow {
+
+    content: "";
+    position: relative;
+    left: 65px;
+    top: 53px;
+    width: 0; 
+    height: 0; 
+    border-top: 18px solid transparent;
+    border-bottom: 18px solid transparent;
+  
+    border-left: 18px solid #009FFF;
+
+}

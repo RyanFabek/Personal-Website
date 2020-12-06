@@ -1,0 +1,19 @@
+.container {
+
+    display: inline;
+    background-color: orange;
+    
+}
+
+.container > ul {
+
+    list-style: none;
+}
+
+.container > ul > li {
+
+    display: inline;
+    padding-right: 40px;
+    font-size: 15pt;
+    color: white;
+}

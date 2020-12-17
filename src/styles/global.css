@@ -1,15 +1,96 @@
+/*File: global.css*/
+
+
+/*@default*/
 html {
-    overflow-x: hidden;
-    background: whitesmoke;
+  overflow-x: hidden;
+  background: whitesmoke;
+}
+
+body {
+
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+
+p {
+
+font-size: 15pt;
+}
+h1 {
+  
+  font-family: "Quicksand";
+  font-weight: 400;
+  font-size: 50pt;
+  margin-bottom: 0px;
+  color:black;
+  text-align: center;
+  
+}
+  
+  
+h2{
+  
+  font-family: "Quicksand";
+  font-weight: 400; 
+  font-size: 30pt;
+  position: relative;
+  color:black;
+  text-align: center;
+
+  }
+  
+  
+h3 {
+  
+  font-family: "Quicksand";
+  font-weight: 400; 
+  font-size: 14pt;
+  position: relative;
+  color:grey;
+  text-align: center;
+  
+  
   }
 
-  body {
+/*@Main Page*/
 
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
+  #Main-page {
+
+    background-color: whitesmoke;
+    height: 100vh;
+    width: 100vw;
   }
+
+  #Profile {
+
+    width: 400px;
+    position: absolute;
+    left: 60vw;
+    top: 20vh;
+    border-radius: 50%;
+  }
+
+  #Heading {
+
+    position: relative;
+    background-color: whitesmoke;
+    top: 60vh;
+    left: 20vw;
+  }
+
+  #logo {
+
+    width: 600px;
+    position: relative;
+    left: 150px;
+    padding-bottom: 100px;
+  }
+  
+
+/*@Project Section*/
 
 .Projects-box {
 
@@ -22,44 +103,7 @@ html {
 }
 
 
-p {
-
-  font-size: 15pt;
-}
-h1 {
-
-    font-family: "Quicksand";
-    font-weight: 400;
-    font-size: 50pt;
-    margin-bottom: 0px;
-    color:black;
-    text-align: center;
-
-}
-
-
-h2{
-
-    font-family: "Quicksand";
-    font-weight: 400; 
-    font-size: 30pt;
-    position: relative;
-    color:black;
-    text-align: center;
-}
-
-
-h3 {
-
-    font-family: "Quicksand";
-    font-weight: 400; 
-    font-size: 14pt;
-    position: relative;
-    color:grey;
-    text-align: center;
-
-
-}
+/*@Skill Section*/
 
 
 .Skills-Container {
@@ -71,39 +115,6 @@ h3 {
   columns: 3;
 }
 
-#logo {
-
-  width: 600px;
-  position: relative;
-  left: 150px;
-  padding-bottom: 100px;
-}
-
-#Heading {
-
-  position: relative;
-  background-color: whitesmoke;
-  top: 60vh;
-  left: 20vw;
-}
-
-#Main-page {
-
-  background-color: whitesmoke;
-  height: 100vh;
-  width: 100vw;
-}
-
-
-#Profile {
-
-  width: 400px;
-  position: absolute;
-  left: 60vw;
-  top: 20vh;
-  border-radius: 50%;
-}
-
 #Skills {
 
   margin-left: 10%;
@@ -111,16 +122,7 @@ h3 {
 
 }
 
-.Sub-heading {
-
-  background-color: #16a085;
-  padding-top: 20px;
-}
-.Headrule {
-
-  border-bottom: white 1px solid;
-}
-
+/*@Heading Section*/
 #Experience {
 
   display: flex;
@@ -128,6 +130,8 @@ h3 {
   justify-content: center;
   
 }
+
+/*@Section Headers*/
 
 .ribbon {
   width: 50%;

@@ -1,6 +1,7 @@
 .container {
 
     display: inline;
+    width: 500px;
     background-color: orange;
     
 }
@@ -8,6 +9,10 @@
 .container > ul {
 
     list-style: none;
+    margin: 0px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    position: sticky;
 }
 
 .container > ul > li {
@@ -15,5 +20,5 @@
     display: inline;
     padding-right: 40px;
     font-size: 15pt;
-    color: white;
+    color:black;
 }

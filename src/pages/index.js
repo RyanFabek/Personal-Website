@@ -1,5 +1,9 @@
-import React from "react"
+import React from "react";
+import DesktopView from "./components/DesktopView.js";
 
 export default function Home() {
-  return <div>Hello world!</div>
+  
+  
+  
+  return <DesktopView/>
 }

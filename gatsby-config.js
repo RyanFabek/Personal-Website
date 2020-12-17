@@ -18,6 +18,6 @@ module.exports = {
         ],
         display: 'swap'
       }
-    }
+    }, `gatsby-plugin-sass`
   ]
 }

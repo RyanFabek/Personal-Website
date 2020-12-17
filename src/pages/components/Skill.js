@@ -6,7 +6,7 @@ class Skill extends React.Component {
     render() { 
 
         return(
-            <div>
+            <div className={skillstyle.container}>
                 <div className={skillstyle.Arrow}></div>
                 <span className={skillstyle.dot}></span>
                 <p>{this.props.name}</p>

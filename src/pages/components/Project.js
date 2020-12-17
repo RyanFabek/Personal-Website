@@ -11,7 +11,7 @@ class Project extends React.Component {
                 <img src={this.props.image}></img>
                 <h2>{this.props.title}</h2>
                 <p>{this.props.desc}</p>
-                
+                <button>More</button>
             </div>
         
         );

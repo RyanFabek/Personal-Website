@@ -1,6 +1,14 @@
 html {
-    background-color: #0067FF;
     overflow-x: hidden;
+    background: whitesmoke;
+  }
+
+  body {
+
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
   }
 
 .Projects-box {
@@ -13,25 +21,54 @@ html {
   position: relative;
 }
 
+
+p {
+
+  font-size: 15pt;
+}
 h1 {
 
     font-family: "Quicksand";
     font-weight: 400;
-    font-size: 40pt;
+    font-size: 50pt;
     margin-bottom: 0px;
-    color: white;
+    color:black;
     text-align: center;
 
 }
 
 
-h2,h3 {
+h2{
 
     font-family: "Quicksand";
     font-weight: 400; 
+    font-size: 30pt;
     position: relative;
-    color: white;
+    color:black;
     text-align: center;
+}
+
+
+h3 {
+
+    font-family: "Quicksand";
+    font-weight: 400; 
+    font-size: 14pt;
+    position: relative;
+    color:grey;
+    text-align: center;
+
+
+}
+
+
+.Skills-Container {
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  columns: 3;
 }
 
 #logo {
@@ -45,15 +82,18 @@ h2,h3 {
 #Heading {
 
   position: relative;
+  background-color: whitesmoke;
   top: 60vh;
   left: 20vw;
 }
 
-#Heading-Skills {
+#Main-page {
 
-  display: flexbox;
-  columns: 3;
+  background-color: whitesmoke;
+  height: 100vh;
+  width: 100vw;
 }
+
 
 #Profile {
 
@@ -61,6 +101,7 @@ h2,h3 {
   position: absolute;
   left: 60vw;
   top: 20vh;
+  border-radius: 50%;
 }
 
 #Skills {
@@ -70,8 +111,72 @@ h2,h3 {
 
 }
 
-#Subheading {
+.Sub-heading {
 
-  position: relative;
-  left: 50px;
+  background-color: #16a085;
+  padding-top: 20px;
 }
+.Headrule {
+
+  border-bottom: white 1px solid;
+}
+
+#Experience {
+
+  display: flex;
+  columns: 1;
+  justify-content: center;
+  
+}
+
+.ribbon {
+  width: 50%;
+  font-size: 28px;
+  position: relative;
+  background-color: #16a085;
+  text-align: center;
+  color: #ecf0f1;
+  letter-spacing: 3px;
+  padding: 1em 6em;
+  margin: 2em auto 3em;
+}
+
+.ribbon:before, .ribbon:after {
+  content: "";
+  position: absolute;
+  display: block;
+  bottom: -.99em;
+  border: 1.5em solid darken(#16a085, 10%);
+  z-index: -1;
+}
+
+.ribbon:before {
+  left: -1.7em;
+  border-right-width: 1.2em;
+  border-left-color: transparent;
+}
+
+.ribbon:after {
+ right: -2.03em;
+ border-left-width: 1.5em;
+ border-right-color: transparent;
+}
+
+.ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+  content: "";
+  position: absolute;
+  border-style: solid;
+  border-color: darken(#16a085, 20%) transparent transparent transparent;
+  bottom: -1em;
+}
+
+.ribbon .ribbon-content:before {
+  left: 0;
+  border-width: 1em 0 0 1em;
+}
+
+.ribbon .ribbon-content:after {
+  right: 0;
+  border-width: 1em 1em 0 0;
+}
+

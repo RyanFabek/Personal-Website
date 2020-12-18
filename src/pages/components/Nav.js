@@ -8,10 +8,9 @@ class Nav extends React.Component {
         return(
             <div className={navstyle.container}>
                 <ul>
-                <li>About</li>
-                <li>Skills</li>
-                <li>Experience</li>
-                <li>Projects</li>
+                <li><a href="#skills-header">Skills</a></li>
+                <li><a href="#experience-header">Experience</a></li>
+                <li><a href="#projects-header">Projects</a></li>
                 </ul>
             </div>
         

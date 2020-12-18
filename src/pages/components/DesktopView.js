@@ -14,22 +14,20 @@ export default function DesktopView() {
         
         
         <section id="Main-page">
-        <img id="Profile" src={Profile}/>
         <Nav/>
+        <img id="Profile" src={Profile}/>
+
             <div id="Heading">
-                <h1>Ryan Fabek</h1>
-                <h2 id="Subheading">Future Engineer and Innovator</h2>
+                <h1 id="Heading-Text">Ryan Fabek</h1>
+                <h2 id="Subheading-Text">Future Engineer and Innovator</h2>
                 <img src=""/>
                 <img src=""/>
                 <img src=""/>
                 </div>
 
-
-            
-        <img id="logo" src={Logo}></img>
         </section>
 
-        <h2 className="ribbon">Skills</h2>
+        <h1 className="ribbon" id="skills-header">Skills</h1>
         <section className="Skills-Container">
         
                 <div>
@@ -53,18 +51,20 @@ export default function DesktopView() {
                 </div>
 
         </section>
-        <h2 className="ribbon">Experience</h2>
+        <h1 className="ribbon" id="experience-header">Experience</h1>
 
         
         <section id="Experience">
 
-        <Experience jobtitle="Software Developer" company="Communincations Research Centre Canada" date="September 2020 - December 2020"/>
+        <Experience jobtitle="Software Developer" company="Communincations Research Centre Canada" date="September 2020 - December 2020" desc="Testing 123"/>
+        <Experience jobtitle="Software Developer" company="Communincations Research Centre Canada" date="September 2020 - December 2020" desc="Testing 123"/>
+        <Experience jobtitle="Software Developer" company="Communincations Research Centre Canada" date="September 2020 - December 2020" desc="Testing 123"/>
 
 
 
 
         </section>
-        <h2 className="ribbon">Projects</h2>
+        <h2 className="ribbon" id="projects-header">Projects</h2>
         <section className="Projects-box">
             <Project title="Raspberry Pi IOT" desc="Created a IOT device utilizing a raspberry PI. I used the react library" image={Profile}/>
             <Project title="Raspberry Pi IOT" desc="Hello World"/>

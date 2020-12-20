@@ -11,7 +11,18 @@ class Project extends React.Component {
                 <img src={this.props.image}></img>
                 <h2>{this.props.title}</h2>
                 <p>{this.props.desc}</p>
-                <button>More</button>
+                <div className={projectstyle.container_tag}>
+                    {
+                        this.props.skills.map(item => {
+
+
+                            return <span className={projectstyle.tag}><p>{item}</p></span>
+                        })
+
+                    }
+
+
+                </div>
             </div>
         
         );

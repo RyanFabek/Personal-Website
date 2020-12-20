@@ -1,9 +1,10 @@
 .container {
 
-    width: 20vw;
+    width: 25vw;
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 10px 20px #eee, 0 6px 6px #d5d5d5;
+    padding-bottom: 20px;
 }
 
 .container > p {
@@ -43,4 +44,29 @@
     margin: 10px;
     position: relative;
     float:right;
+}
+
+.container_tag {
+
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 25px;
+    padding-right: 25px;
+    justify-items: space-between;
+    gap: 20px;
+
+}
+
+.tag {
+
+    background-color: rgba(0,0,0, 0.25);
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+}
+
+.tag:first-child {
+
+    margin-left: 0px;
 }

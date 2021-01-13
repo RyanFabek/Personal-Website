@@ -1,0 +1,251 @@
+
+  /*@Main Page*/
+  
+    .Main_page {
+  
+      background-color: #0067FF;
+      height: 100vh;
+      width: 100vw;
+      text-align: center;
+      min-height: 100vh;
+      min-width: 100wh;
+    }
+  
+    .Profile {
+  
+      width: 50vw;
+      margin-top: 50px;
+      margin-right: auto;
+      margin-left: auto;
+      border-radius: 50%;
+  
+    }
+  
+    .Heading {
+  
+      position: relative;
+  
+    }
+  
+  
+  
+    .Heading_Text {
+  
+      font-family: "Quicksand";
+      font-weight: 400;
+      font-size: xx-large;
+      margin-bottom: 0px;
+      color:white;
+      text-align: center;
+  
+    }
+  
+    .Subheading_Text {
+  
+      color: white;
+      font-size: large;
+    }
+  
+    .Media_container {
+  
+      display: flex;
+      width: 50vw;
+      justify-content: center;
+      border-radius: 5px;
+      gap: 50px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 20px;
+  
+    }
+  
+    .Media_container > a >  img {
+  
+      width:40px;
+    }
+  
+    .Media_container > a {
+  
+      width: 40px;
+    }
+  /*@Project Section*/
+  
+  .Projects_Container {
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex-direction: column;
+    position: relative;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  
+  
+  /*@Skill Section*/
+  
+  
+  .Skills_Container {
+  
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    gap: 100px;
+  }
+  
+  .Skill_Container {
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  
+  
+  }
+  
+  .Skills {
+  
+    margin-left: 10px;
+    margin-right: 10px;
+  
+  }
+  
+  
+  .Skill_Img {
+  
+    width: 200px;
+    height: auto;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+  
+  }
+  
+  
+  .Skill_Legend_Container {
+  
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 50%;
+    transform: translate(50%, 0);
+    border-bottom: 2px grey solid;
+  
+  }
+  
+  .Skill_Legend_Item > p {
+  
+    margin-left: 20px;
+  }
+  
+  .dotgreen {
+  
+    width: 10px;
+    height: 10px;
+    background-color: lightgreen;
+    content: " ";
+    display: inline-block;
+    border-radius: 50%;
+    float: left;
+    position: relative;
+    transform: translate(0, 20px) ;
+  }
+  
+  .dotblue {
+  
+    width: 10px;
+    height: 10px;
+    background-color: lightskyblue;
+    content: " ";
+    display: inline-block;
+    border-radius: 50%;
+    float: left;
+    position: relative;
+    transform: translate(0, 20px) ;
+  }
+  
+  .dotyellow {
+  
+    width: 10px;
+    height: 10px;
+    background-color:yellow;
+    content: " ";
+    display: inline-block;
+    border-radius: 50%;
+    float: left;
+    position: relative;
+    transform: translate(0, 20px) ;
+  }
+  /*@Heading Section*/
+  .Experience {
+  
+    display: flex;
+    grid-template-columns: auto;
+    flex-direction: column;
+    width: 50vw;
+    columns: 1;
+    justify-content: center;
+    row-gap: 80px;
+    
+  }
+  
+  /*@Section Headers*/
+  
+  .ribbon {
+    width: 25%;
+    position: relative;
+    background-color: #16a085;
+    text-align: center;
+    color: #ecf0f1;
+    letter-spacing: 3px;
+    padding: 1em 6em;
+    margin: 2em auto 1em;
+  }
+  
+  .ribbon:before, .ribbon:after {
+    content: "";
+    position: absolute;
+    display: block;
+    bottom: -.99em;
+    border: 1.5em solid darken(#16a085, 10%);
+    z-index: -1;
+  }
+  
+  .ribbon:before {
+    left: -1.7em;
+    border-right-width: 1.2em;
+    border-left-color: transparent;
+  }
+  
+  .ribbon:after {
+   right: -2.03em;
+   border-left-width: 1.5em;
+   border-right-color: transparent;
+  }
+  
+  .ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+    content: "";
+    position: absolute;
+    border-style: solid;
+    border-color: darken(#16a085, 20%) transparent transparent transparent;
+    bottom: -1em;
+  }
+  
+  .ribbon .ribbon-content:before {
+    left: 0;
+    border-width: 1em 0 0 1em;
+  }
+  
+  .ribbon .ribbon-content:after {
+    right: 0;
+    border-width: 1em 1em 0 0;
+  }

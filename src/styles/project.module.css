@@ -1,10 +1,24 @@
+/*File Name: project.module.css*/
+
+
+/*----------------------------------------------------------------------------------------------*/
+/*Mobile Layout*/
+/*----------------------------------------------------------------------------------------------*/
 .container {
 
-    width: 25vw;
+    width: 50vw;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: 0 10px 20px #eee, 0 6px 6px #d5d5d5;
     padding-bottom: 20px;
+    margin-bottom: 50px;
+    min-width: 300px;
+}
+
+.container:hover {
+
+    transition: 1s ease-in-out;
+    transform: translate(-2px, -4px);
 }
 
 .container > p {
@@ -48,7 +62,8 @@
 
 .container_tag {
 
-    display: inline-flex;
+    display: flex;
+    justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
     padding-left: 25px;
@@ -58,9 +73,14 @@
 
 }
 
+.container_tag > span > p {
+
+    color: white;
+}
+
 .tag {
 
-    background-color: rgba(0,0,0, 0.25);
+    background-color:#63ace5;
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 20px;
@@ -69,4 +89,94 @@
 .tag:first-child {
 
     margin-left: 0px;
+}
+
+
+@media only screen and (min-width: 768px) {
+
+    .container {
+
+        width: 25vw;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 10px 20px #eee, 0 6px 6px #d5d5d5;
+        padding-bottom: 20px;
+    }
+    
+    .container:hover {
+    
+        transition: 1s ease-in-out;
+        transform: translate(-2px, -4px);
+    }
+    
+    .container > p {
+    
+        color: black;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 10px;
+        
+    }
+    
+    .container > h2 {
+    
+        border-bottom: grey 2px solid;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 10px;
+        font-family: "Quicksand";
+        font-weight: 400;
+        color: black;
+    }
+    
+    .container > img {
+    
+        width: 100%;
+        border-radius: 10px 10px 0px 0px;
+    }
+    
+    
+    .container > button {
+    
+        background-color: white;
+        font-family: "Quicksand";
+        font-size: 12pt;
+        border: none;
+        border-radius: 10px;
+        margin: 10px;
+        position: relative;
+        float:right;
+    }
+    
+    .container_tag {
+    
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-left: 25px;
+        padding-right: 25px;
+        justify-items: space-between;
+        gap: 20px;
+    
+    }
+    
+    .container_tag > span > p {
+    
+        color: white;
+    }
+    
+    .tag {
+    
+        background-color:#16a085;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 20px;
+    }
+    
+    .tag:first-child {
+    
+        margin-left: 0px;
+    }
+
+
 }

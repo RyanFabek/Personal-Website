@@ -1,12 +1,13 @@
+/*----------------------------------------------------------------------------------------------*/
+/*Desktop Layout*/
+/*----------------------------------------------------------------------------------------------*/
 .container {
 
     width: 100%;
     display: inline-block;
     text-align: center;
-    background-color: rgba(255, 255,255, 0.7);
-    border-bottom: 2px grey solid;
-
-    
+    color: white;
+    margin: auto;
 }
 
 .container > ul {
@@ -15,6 +16,7 @@
     margin: 0px;
     padding-top: 20px;
     padding-bottom: 20px;
+    color: white;
 }
 
 .container > ul > li {
@@ -22,5 +24,148 @@
     display: inline;
     padding-right: 40px;
     font-size: 15pt;
-    color:black;
+    font-family: 'Quicksand';
+    color: white;
+}
+
+.container > ul > img {
+
+    width: 40px;
+    position: relative;
+    right: 40px;
+}
+
+.nav_img {
+        
+    margin: auto;
+    margin-right: 10px;
+    
+
+}
+
+/*----------------------------------------------------------------------------------------------*/
+/*Mobile Layout*/
+/*----------------------------------------------------------------------------------------------*/
+@media only screen and (max-width: 1024px) {
+
+    .sidebar_active {
+
+        max-width: 240px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        background-color: #0067FF;
+        display: block;
+        height: 100vh;
+        width: 30vw;
+        position: fixed;
+        z-index: 2;
+        padding-top: 20px;
+        animation-name: sidebar_show;
+        animation-duration: 1s;
+
+    }
+
+
+    @keyframes sidebar_show {
+
+        from {transform: translateX(-25vw);}
+        to{transform: translateX(0px);}
+    }
+
+    @keyframes sidebar_hide {
+
+        from {transform: translateX(0px);}
+        to{transform: translateX(25vw);}
+    }
+
+    .sidebar_overlay_active {
+
+        background-color: rgba(0, 0, 0, 0.3);
+        width: 100vw;
+        height: 100vh;
+        z-index: 1;
+        position: fixed;
+    }
+
+    .sidebar {
+
+        animation-name: sidebar_hide;
+        animation-duration: 10s;
+        display: none;
+    }
+
+    .bar_icon {
+
+        position: absolute;
+        top: 20px;
+        display: block;
+        left: 20px;
+    }
+
+    span {
+
+        color: white;
+    }
+
+
+    .container  {
+
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+        row-gap: 20px;
+    }
+
+    .container > a > div {
+
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+        border-top: 2px solid white;
+        border-bottom: 2px solid white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+
+    }
+
+    .container > a:active {
+
+        background-color: #0066ff9a;
+    }
+
+    nav {
+
+    }
+
+    nav >  img {
+
+        margin: auto;
+        width: 40%;
+        margin-bottom: 40px;
+    }
+
+    nav > p {
+
+
+        color: white;
+        position: absolute;
+        font-size: small;
+        bottom: 20px;
+        width: 70%;
+        transform: translateX(20%);
+        text-align: center;
+
+
+    }
+
+    .nav_img {
+        
+        margin: auto;
+        margin-bottom: 10px;
+        
+
+    }
+
+
+
 }

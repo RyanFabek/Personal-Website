@@ -1,3 +1,8 @@
+//File Name: Project.js
+
+//-----------------------------------------------------------------------------------
+//General Imports
+//-----------------------------------------------------------------------------------
 import React, { Component } from "react"
 import projectstyle from "../../styles/project.module.css";
 

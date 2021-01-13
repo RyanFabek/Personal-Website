@@ -1,5 +1,11 @@
+//File Name: Skill.js
+
+//-----------------------------------------------------------------------------------
+//General Imports
+//-----------------------------------------------------------------------------------
 import React, { Component } from "react"
 import skillstyle from "../../styles/skill.module.css";
+
 
 class Skill extends React.Component {
 
@@ -7,7 +13,7 @@ class Skill extends React.Component {
 
         return(
             <div className={skillstyle.container}>
-                <span className={skillstyle.dot}></span>
+                <span style={{background: this.props.color}} className={skillstyle.dot}></span>
                 <p>{this.props.name}</p>
             </div>
         

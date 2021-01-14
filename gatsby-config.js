@@ -7,11 +7,7 @@
 module.exports = {
   siteMetadata: {
     title: "Ryan Fabek",
-    titleTemplate: "%s",
-    description: "",
-    url: "https://ryanfabek.ca",
-    image: "./Logo.svg",
-    linkedinUsername: "ryan-fabek" 
+    siteUrl: "https://ryanfabek.com",
   },
   plugins: [
     {

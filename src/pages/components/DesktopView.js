@@ -42,6 +42,18 @@ import Odandetech_Logo from "./../../images/Odandetech_Logo.png"
 //-----------------------------------------------------------------------------------
 //Class Name: DesktopView
 //-----------------------------------------------------------------------------------
+
+Experience_Desktop.defaultProps = {
+
+    description : []
+};
+
+Project.defaultProps = {
+
+    skills: []
+};
+
+
 export default class DesktopView extends Component {
 
     render() {

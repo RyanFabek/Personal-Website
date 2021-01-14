@@ -54,6 +54,16 @@ const headers = [
 
 ]
 
+Experience.defaultProps = {
+
+    description : []
+};
+
+Project.defaultProps = {
+
+    skills: []
+};
+
 export default class DesktopView extends Component {
     render() {
 
